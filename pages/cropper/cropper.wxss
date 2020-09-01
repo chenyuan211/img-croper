@@ -1,0 +1,18 @@
+/* pages/cropper/cropper.wxss */
+page {
+  background-color: rgba(0, 0, 0, 1);
+}
+.cropper-buttons {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  width: 100%;
+}
+.upload {
+  padding-left: 10px;
+}
+.getCropperImage {
+  margin-left: auto;
+  padding-right: 10px;
+}

@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<import src="/we-cropper.wxml"/>
+  <view class="container">
+    <view class="cropper-wrapper">
+      <template is="we-cropper" data="{{...cropperOpt}}"/>
+      <view class="cropper-buttons">
+          <view
+                  class="upload"
+                  bindtap="uploadTap">
+              取消
+          </view>
+          <view
+                  class="getCropperImage"
+                  bindtap="getCropperImage">
+              生成图片
+          </view>
+      </view>
+  </view>
+<!-- <view class="update">
+  <image src="{{Imgurls}}"></image>
+</view> -->
+</view>

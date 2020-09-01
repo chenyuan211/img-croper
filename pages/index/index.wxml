@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view>
+  <view>上传图片</view>
+  <view bindtap="imgUpdate" class="update">
+    <image src="{{Imgurls}}"></image>
+  </view>
+</view>
